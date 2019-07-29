@@ -21,6 +21,7 @@ call plug#end()
 
 set cursorline
 set number
+set encoding=utf-8
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
